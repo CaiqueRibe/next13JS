@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="image.png" alt="Alt text" width="600">
 
-## Getting Started
+# NextJS Beginner Project Tutorial - Learn NextJS 13 With This Easy Project
 
-First, run the development server:
+https://www.youtube.com/watch?v=PtDIVU_tlo0&ab_channel=PedroTech
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project --> **Login and random stuff genator** <br>
+Channel --> **PedroTech 173 mil inscritos** <br>
+Date Created --> **13 de jul. de 202e**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Observations
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-  NextJs13
+-  Tailwind
+-  tyscript
+-  postcss??
+-  client and server components
+-  passing name as paremeter
+   -  server component grabs it of url
+      -  hits 3 diff. APIS to generate random values
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Components
 
-## Learn More
+-  root page w/ form and input for name
+-  prediction card loading component
+-  dynamic name component with card
+   -  w/ info from APIs
 
-To learn more about Next.js, take a look at the following resources:
+### Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-  SSR --> server side rendering
+-  page.tsx --> root route of our application
+-  route creation
+-  use client on component
+-  fetch data in server component
+-  passsing and grabbing param in the URL
+-  defining the "Params" type
+-  fetching data
+   1st - Create functions that fetch the data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### TimeStamps<br>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+00:00 | Intro<br>
+00:30 | Project Demo<br>
+03:56 | Creating the Next App<br>
+07:40 | Creating Routes<br>
+17:38 | Creating Dynamic Routes<br>
+21:50 | Fetching Data<br>
+31:46 | Video Recap
